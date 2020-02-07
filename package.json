@@ -1,0 +1,13 @@
+{
+  "name": "fireblag",
+  "version": "1.0.0",
+  "description": "A blog built on firebase platform",
+  "scripts": {
+    "build": "npm run build --prefix functions",
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "author": "rockraikar@gmail.com",
+  "license": "MIT",
+  "private": true
+}
